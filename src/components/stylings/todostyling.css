@@ -1,0 +1,73 @@
+.chold{
+    /* max-width: 500px; */
+    width: 395px;
+    display: block;
+    padding: 0.6rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px rgba(88, 86, 86, 0.41), inset 7px 1px 18px rgba(151, 146, 146, 0.41);
+    overflow: hidden;
+}
+
+.todo{
+    display: block;
+    position: relative;
+    left: 35%;
+    max-width: 20%;
+    min-width: 20%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 2px solid black;
+    user-select: none;
+}
+.todo:hover{
+    cursor: pointer;
+}
+.selection-done{
+    position: fixed;
+    left: 22%;
+    border-radius: 50%;
+    width: 22px;
+    height: 26px;
+    border: 2px solid black;
+
+}
+
+.selection-close{
+    position: fixed;
+    left: 75%;
+    border-radius: 50%;
+    width: 22px;
+    height: 26px;
+    border: 2px solid black;
+
+}
+.close{
+    position: relative;
+    top: -9px;
+    right: 14px;
+}
+.done{
+    position: relative;
+    top: -10px;
+    right: 7px;
+}
+.active{
+    text-decoration: line-through !important;
+}
+
+.none{
+    display: none !important;
+}
+.block{
+    display: block !important;
+}
+
+@media only screen and (max-width:700px) {
+    .selection-done{
+        left: 25%;
+    }
+    .selection-close{
+        left: 73%;
+    }
+}
