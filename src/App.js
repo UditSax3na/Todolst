@@ -22,8 +22,16 @@ function App() {
       heading:heading,
       comp:0
     }
-    settodolst([...todolst,basictodo]);
-    document.getElementById("heading").value="";
+    if (heading===""||heading===" "){
+      // 
+    }else if(heading==="*dark!"){
+      // darkmode
+    }
+    else{
+      settodolst([...todolst,basictodo]);
+      document.getElementById("heading").value="";
+      setheading("");
+    }
   }
   const change_=()=>{
     setheading(document.getElementById("heading").value);

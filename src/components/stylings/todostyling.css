@@ -8,6 +8,7 @@
     padding: 0.8rem;
     min-height: 3rem;
     max-height: 3rem;
+    overflow: hidden;
 }
 .selection-close{
     float: right;
@@ -31,6 +32,9 @@
     justify-content: center;
     width: 100%;
     overflow: hidden;
+    height: 2rem;
+    white-space: nowrap;
+    user-select: none;
 }
 .todo:hover{
     cursor: pointer;
