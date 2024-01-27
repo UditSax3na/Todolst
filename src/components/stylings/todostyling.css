@@ -1,45 +1,39 @@
 .chold{
-    width: 395px;
-    display: block;
-    padding: 0.6rem;
-    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
     box-shadow: 3px 3px 15px rgba(88, 86, 86, 0.41), inset 7px 1px 18px rgba(151, 146, 146, 0.41);
-    overflow: hidden;
+    border-radius: 20px;
+    width: 395px;
+    display: flex;
+    padding: 0.8rem;
+    min-height: 3rem;
+    max-height: 3rem;
 }
-
-.todo{
-    display: block;
-    position: relative;
-    left: 35%;
-    max-width: 20%;
-    min-width: 20%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.selection-close{
+    float: right;
+    border-radius: 50%;
+    width: 22px;
+    height: 26px;
     border: 2px solid black;
-    user-select: none;
+
+}
+.selection-done{
+    float: left;
+    border-radius: 50%;
+    width: 22px;
+    height: 26px;
+    border: 2px solid black;
+
+}
+.todo{
+    float: left;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
 }
 .todo:hover{
     cursor: pointer;
-}
-.selection-done{
-    position: fixed;
-    left: 22%;
-    border-radius: 50%;
-    width: 22px;
-    height: 26px;
-    border: 2px solid black;
-
-}
-
-.selection-close{
-    position: fixed;
-    left: 75%;
-    border-radius: 50%;
-    width: 22px;
-    height: 26px;
-    border: 2px solid black;
-
 }
 .close{
     position: relative;
