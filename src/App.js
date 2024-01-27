@@ -1,10 +1,14 @@
 // import logo from './logo.svg';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import Todos from './components/Todos';
 
 function App() {
-  const [todolst, settodolst] = useState([{heading:'do it',comp:0},{heading:'temp',comp:0}]);
+  
+  if (localStorage.getItem("Todos") === null || localStorage.getItem("Todos") === ""){
+    localStorage.setItem("Todos",JSON.stringify([]));
+  }
+  const [todolst, settodolst] = useState([...JSON.parse(localStorage.getItem("Todos"))]);
   console.log(todolst);
   const [heading, setheading] = useState('');
   const [hover, sethover] = useState(-1);
@@ -40,6 +44,12 @@ function App() {
     let temp = todolst.filter(e=>e!==ele);
     settodolst(temp);
   }
+
+  // using useEffect for the second time
+  useEffect(() => {
+    console.log("We are here !");
+    localStorage.setItem("Todos",JSON.stringify(todolst));
+  }, [todolst]);
   return (
   <>
     <h1 className="text-center mt-4">Add Task</h1>
