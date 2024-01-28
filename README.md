@@ -8,4 +8,4 @@ using the *REACT*
 Just a basic todo list using react and local storage system
 
 ## Preview
-[Goto WEbpage](https://todolst-sooty.vercel.app/)
+[Goto Webpage](https://todolst-sooty.vercel.app/)
