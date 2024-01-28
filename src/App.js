@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import { useEffect, useState } from 'react';
 import './App.css';
+import './Responsive_.css'
 import Todos from './components/Todos';
 
 function App() {
@@ -47,7 +48,6 @@ function App() {
 
   // using useEffect for the second time
   useEffect(() => {
-    console.log("We are here !");
     localStorage.setItem("Todos",JSON.stringify(todolst));
   }, [todolst]);
   return (
