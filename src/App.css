@@ -26,7 +26,6 @@ body{
   min-height: 90%;
   max-width: 800px;
   min-width: 600px;
-  /* border: 2px solid red; */
   border-radius: 40px;
   padding: 10px;
   display: flex;
@@ -42,7 +41,6 @@ body{
 .upperlayer .input{
   border-radius: 10px;
   width: 80%;
-  /* border: 2px solid black; */
   padding: 10px;
   box-shadow: 7px 7px 30px rgba(88, 86, 86, 0.41),inset 5px 5px 25px rgba(151, 146, 146, 0.41);
 }

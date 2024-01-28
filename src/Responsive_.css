@@ -1,0 +1,44 @@
+/* responsiveness of the website which make supportable for all the devices */
+
+
+@media only screen and (width <= 1100) {
+    #root{
+        left: 2%;
+    }
+}
+@media only screen and (width <= 412px) {
+    /* .selection-done{
+        left: 25%;
+    }
+    .selection-close{
+        left: 73%;
+    } */
+    /* html,body{ */
+        /* max-width: 412px;
+        min-width: 412px;
+        max-height: 914px;
+        min-height: 914px; */
+    /* } */
+    #root{
+        max-width: 20rem;
+        min-width: 19rem;
+        left: 2%;
+        top: 1rem;
+        min-height: 80%;
+        max-height: 80%;
+    }
+    .upperlayer .input input{
+        width: 10rem;
+    }
+    .chold{
+        max-width: 14rem;
+    }
+    .todolist{
+        padding-left: 3%;
+    }
+    /* .todo{
+
+    } */
+
+
+}
