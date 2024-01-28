@@ -1,0 +1,11 @@
+/* responsiveness of the website which make supportable for all the devices */
+
+
+@media only screen and (max-width: 412px) {
+    .selection-done{
+        left: 25%;
+    }
+    .selection-close{
+        left: 73%;
+    }
+}
