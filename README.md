@@ -2,7 +2,7 @@
 This is a todo list 
 
 ## Used
-using the *REACT*
+- *REACT js*
 
 ## Description
 Just a basic todo list using react and local storage system
