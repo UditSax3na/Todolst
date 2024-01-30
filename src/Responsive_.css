@@ -27,14 +27,22 @@
         min-height: 80%;
         max-height: 80%;
     }
+    .upperlayer{
+        padding-left: 0;
+    }
+    .upperlayer .input {
+        margin-left: 0;
+        margin-right: 0.5rem;
+    }
     .upperlayer .input input{
         width: 10rem;
     }
     .chold{
-        max-width: 14rem;
+        max-width: 13rem;
+        margin-left: 0.5rem;
     }
     .todolist{
-        padding-left: none;
+        padding-left: 0;
     }
     /* .todo{
 
