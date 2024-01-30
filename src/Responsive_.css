@@ -22,10 +22,12 @@
     #root{
         max-width: 19rem;
         min-width: 18rem;
-        left: 10%;
+        left: 3rem;
         top: 1rem;
-        min-height: 80%;
+        min-height: 100%;
         max-height: 80%;
+        overflow-y: scroll;
+        position: fixed;
     }
     .upperlayer{
         padding-left: 0;
@@ -39,10 +41,13 @@
     }
     .chold{
         max-width: 13rem;
-        margin-left: 0.5rem;
+        /* margin-left: 0.5rem; */
+        position: relative;
+        right: 6%;
     }
     .todolist{
         padding-left: 0;
+        max-height: fit-content;
     }
     /* .todo{
 
