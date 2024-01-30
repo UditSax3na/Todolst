@@ -53,8 +53,8 @@ function App() {
   return (
   <>
     <h1 className="text-center mt-4">Add Task</h1>
-  <div className="upperlayer mt-4 mx-4">
-  <div className="input mx-3">
+  <div className="upperlayer mt-4">
+  <div className="input">
     <input type="text" placeholder="Task Name" id="heading" onChange={()=>{change_()}}/>
   </div>
   <button className="btn btn-primary button" onClick={()=>{Add_task()}}>Add</button>
