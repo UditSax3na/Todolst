@@ -1,5 +1,5 @@
 # Todolst (developing)
-This is a todo list 
+This is a todo list , add task as much as you want !
 
 ## Used
 - *REACT js*
