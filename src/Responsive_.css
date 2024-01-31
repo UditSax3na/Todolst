@@ -3,7 +3,7 @@
 
 @media only screen and (width <= 1100) {
     #root{
-        left: 0.6%;
+        left: 2%;
     }
 }
 @media only screen and (width <= 412px) {
@@ -22,7 +22,7 @@
     #root{
         max-width: 19rem;
         min-width: 18rem;
-        left: 3rem;
+        left: 1rem;
         top: 1rem;
         min-height: 100%;
         max-height: 80%;
