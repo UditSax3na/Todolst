@@ -3,7 +3,7 @@
 
 @media only screen and (width <= 1100) {
     #root{
-        left: 2%;
+        left: 0.6%;
     }
 }
 @media only screen and (width <= 412px) {
