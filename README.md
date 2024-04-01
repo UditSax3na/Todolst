@@ -1,4 +1,4 @@
-# Todolst (developing)
+# Todolst 
 This is a todo list , add task as much as you want !
 
 ## Used
@@ -9,3 +9,5 @@ Just a basic todo list using react and local storage system
 
 ## Preview
 [Checkout](https://todolst-sooty.vercel.app/)
+
+### Made by Udit Saxena
